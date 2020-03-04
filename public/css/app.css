@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);.sidebar_dropdown {
+  width: 100%;
+  color: #FFF;
+  margin: 0;
+  font-size: 14px;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.sidebar_submenu {
+  height: 0;
+  overflow: hidden;
+  padding-left: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar_submenu.active_submenu {
+  height: 100%;
+}
+
+.makeStyles-content-3 {
+  position: relative;
+}
+
